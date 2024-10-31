@@ -72,17 +72,21 @@
     theme = lib.mkOption {
       default = lib.mkDefault "paradise";
       type = lib.types.enum [
-        "paradise"
+        "aquarium"
+        "catppuccin-frappe"
+        "catppuccin-latte"
+        "catppuccin-macchiato"
+        "catppuccin-mocha"
         "decay"
         "edge-dark"
-        "mountain"
-        "tokyonight"
-        "everforest"
         "everblush"
-        "jellybeans"
-        "aquarium"
+        "everforest"
         "gruvbox"
+        "jellybeans"
+        "mountain"
         "oxocarbon"
+        "paradise"
+        "tokyonight"
       ];
     };
     assistant = lib.mkOption {
